@@ -114,6 +114,12 @@ GO
 --INSERT INTO f_Artists
 --VALUES('Ice Nine Kills');
 
+--INSERT INTO f_Artists
+--VALUES('Falling in Reverse');
+
+--INSERT INTO f_Artists
+--VALUES('Avantasia');
+
 
 --INSERT INTO f_Albums
 --VALUES(1, 'The Wrong Side of Heaven and the Righteous Side of Hell, Volume 1', '2013-07-30');
@@ -126,6 +132,15 @@ GO
 
 --INSERT INTO f_Albums
 --VALUES(2, 'The Silver Scream', '2018-10-05');
+
+--INSERT INTO f_Albums
+--VALUES(4, 'The Mystery of Time', '2013-04-26');
+
+--INSERT INTO f_Albums
+--VALUES(4, 'Ghostlights', '2016-01-29');
+
+--INSERT INTO f_Albums
+--VALUES(3, 'The Drug in Me Is You', '2011-07-25');
 
 SELECT * FROM f_Albums;
 
@@ -220,7 +235,225 @@ SELECT * FROM f_Albums;
 --INSERT INTO f_Tracks
 --VALUES(2, 9, 'I Apologize', '00:04:03');
 
+--INSERT INTO f_Tracks
+--VALUES(8, 1, 'Raised by Wolves', '00:03:25');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 2, 'Tragic Magic', '00:04:06');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 3,  'The Drug in Me Is You', '00:03:39');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 4, 'Im Not a Vampire', '00:03:52');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 5, 'Good Girls, Bad Guys', '00:03:15');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 6, 'Pick Up the Phone', '00:04:38');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 7, 'Dont Mess With Ouija Boards', '00:04:56');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 8, 'Sink or Swim', '00:04:45');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 9, 'Caught Like a Fly', '00:04:37');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 10, 'Goodbye Graceful', '00:04:48');
+
+--INSERT INTO f_Tracks
+--VALUES(8, 11, 'The Westerner', '00:03:52');
+
+--/*************** Album 6 Tracks Inserts ***************/
+--INSERT INTO f_Tracks
+--VALUES(6, 1, 'Spectres', '00:06:09');
+
+--INSERT INTO f_Tracks
+--VALUES(6, 2, 'The Watchmakers Dream', '00:04:14');
+
+--INSERT INTO f_Tracks
+--VALUES(6, 3, 'Black Orchid', '00:06:52');
+
+--INSERT INTO f_Tracks
+--VALUES(6, 4, 'Where Clock Hands Freeze', '00:04:35');
+
+--INSERT INTO f_Tracks
+--VALUES(6, 5, 'Sleepwalking', '00:03:52');
+
+--INSERT INTO f_Tracks
+--VALUES(6, 6, 'Savior in the Clockwork', '00:10:40');
+
+--INSERT INTO f_Tracks
+--VALUES(6, 7, 'Invoke the Machine', '00:05:30');
+
+--INSERT INTO f_Tracks
+--VALUES(6, 8, 'Whats Left of Me', '00:05:07');
+
+--INSERT INTO f_Tracks
+--VALUES(6, 9, 'Dweller in a Dream', '00:04:45');
+
+--INSERT INTO f_Tracks
+--VALUES(6, 10, 'The Great Mystery', '00:10:03');
+
+--/*************** Album 7 Tracks Inserts ***************/
+--INSERT INTO f_Tracks
+--VALUES(7, 1, 'Mystery of a Blood Red Rose', '00:03:51');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 2, 'Let the Storm Descend Upon You', '00:12:09');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 3, 'The Haunting', '00:04:42');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 4, 'Seduction of Decay', '00:07:18');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 5, 'Ghostlights', '00:05:43');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 6, 'Draconian Love', '00:04:58');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 7, 'Master of the Pendulum', '00:05:01');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 8, 'Isle of Evermore', '00:04:28');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 9, 'Babylon Vampyres', '00:07:09');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 10, 'Lucifer', '00:03:48');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 11, 'Unchain the Light', '00:05:03');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 12, 'A Restless Heart and Obsidian Skies', '00:05:53');
+
+--INSERT INTO f_Tracks
+--VALUES(7, 13, 'Wake up to the Moon', '00:04:43');
 
 SELECT * FROM f_Tracks;
+
+
+
+--INSERT INTO f_Stock
+--VALUES(1, 1, 20, 1);
+
+--INSERT INTO f_Stock
+--VALUES(1, 2, 10, 2);
+
+--INSERT INTO f_Stock
+--VALUES(1, 3, 5, 3);
+
+--INSERT INTO f_Stock
+--VALUES(2, 1, 15, 1);
+
+--INSERT INTO f_Stock
+--VALUES(2, 2, 5, 2);
+
+--INSERT INTO f_Stock
+--VALUES(2, 3, 10, 3);
+
+--INSERT INTO f_Stock
+--VALUES(3, 1, 2, 1);
+
+--INSERT INTO f_Stock
+--VALUES(3, 2, 5, 2);
+
+--INSERT INTO f_Stock
+--VALUES(3, 3, 0, 3);
+
+--INSERT INTO f_Stock
+--VALUES(4, 1, 12, 1);
+
+--INSERT INTO f_Stock
+--VALUES(4, 2, 0, 2);
+
+--INSERT INTO f_Stock
+--VALUES(4, 3, 7, 3);
+
+--INSERT INTO f_Stock
+--VALUES(6, 1, 25, 1);
+
+--INSERT INTO f_Stock
+--VALUES(6, 2, 15, 2);
+
+--INSERT INTO f_Stock
+--VALUES(6, 3, 11, 3);
+
+--INSERT INTO f_Stock
+--VALUES(7, 1, 22, 1);
+
+--INSERT INTO f_Stock
+--VALUES(7, 2, 14, 2);
+
+--INSERT INTO f_Stock
+--VALUES(7, 3, 9, 3);
+
+--INSERT INTO f_Stock
+--VALUES(8, 1, 9, 1);
+
+--INSERT INTO f_Stock
+--VALUES(8, 2, 12, 2);
+
+--INSERT INTO f_Stock
+--VALUES(8, 3, 2, 3);
+
+
+/* 1. What albums and songs are currently in stock */
+SELECT ArtistName, AlbumName,  MediaType, Quantity  FROM f_Albums
+JOIN f_Artists On f_Albums.ArtistID = f_Artists.ArtistID
+JOIN f_Stock On f_Albums.AlbumID = f_Stock.AlbumID
+JOIN f_Media On f_Stock.MediaID = f_Media.MediaID
+WHERE Quantity > 0;
+
+/* 2. What albums where published during a given year */
+SELECT ArtistName, AlbumName,  MediaType, Quantity FROM f_Albums
+JOIN f_Artists On f_Albums.ArtistID = f_Artists.ArtistID
+JOIN f_Stock On f_Albums.AlbumID = f_Stock.AlbumID
+JOIN f_Media On f_Stock.MediaID = f_Media.MediaID
+WHERE YEAR(ReleaseDate) = 2013;
+
+/* 3. What albums in stock are on CD */
+SELECT ArtistName, AlbumName,  MediaType, Quantity  FROM f_Albums
+JOIN f_Artists On f_Albums.ArtistID = f_Artists.ArtistID
+JOIN f_Stock On f_Albums.AlbumID = f_Stock.AlbumID
+JOIN f_Media On f_Stock.MediaID = f_Media.MediaID
+WHERE Quantity > 0 AND f_Stock.MediaID = 1;
+
+/* 4. List all of the songs and albums for a given artist (your choice) */
+SELECT AlbumName, ArtistName, TrackName, TrackLength FROM f_Albums
+JOIN f_Artists On f_Albums.ArtistID = f_Artists.ArtistID
+JOIN f_Tracks On f_Albums.AlbumID = f_Tracks.AlbumID
+WHERE ArtistName = 'Avantasia'  ORDER BY AlbumName DESC;
+/* 5. For a given song, what is the album, group and row number */
+SELECT TrackName, AlbumName, ArtistName, Location FROM f_Tracks
+JOIN f_Albums On f_Tracks.AlbumID = f_Albums.AlbumID
+JOIN f_Artists On f_Albums.ArtistID = f_Artists.ArtistID
+JOIN f_Stock On f_Albums.AlbumID = f_Stock.AlbumID
+WHERE TrackName = 'Stabbing in the Dark' AND MediaID = 1;
+
+/* 6. List all of the albums for a given row (your choice) */
+SELECT Location, AlbumName, ArtistName FROM f_Albums
+JOIN f_Artists On f_Albums.ArtistID = f_Artists.ArtistID
+JOIN f_Stock On f_Albums.AlbumID = f_Stock.AlbumID
+JOIN f_Media On f_Stock.MediaID = f_Media.MediaID
+WHERE Location = 2;
+
+/* 7. Which album has the most songs */
+SELECT TOP 1 AlbumName, ArtistName, COUNT(TrackName) AS Tracks 
+FROM f_Albums 
+    JOIN f_Artists ON f_Albums.ArtistID = f_Artists.ArtistID
+    INNER JOIN f_Tracks ON f_Albums.AlbumID = f_Tracks.AlbumID    
+GROUP BY AlbumName, ArtistName
+ORDER BY COUNT(TrackName) DESC;
+
 
 --SELECT DATEADD(ms, SUM(DATEDIFF(ms, '00:00:00.000', TrackLength)), '00:00:00.000') as time FROM f_Tracks;
